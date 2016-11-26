@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 from django.db import models
 
 
@@ -28,3 +29,10 @@ class Book(models.Model):
         verbose_name = 'Book'
         verbose_name_plural = 'Books'
 
+=======
+from __future__ import unicode_literals
+
+from django.db import models
+
+# Create your models here.
+>>>>>>> 47e9abd8d7de15ddd040ba0b45410a37684185af
