@@ -3,11 +3,11 @@ import os
 import sys
 
 if __name__ == "__main__":
-<<<<<<< HEAD
+
     os.environ.setdefault("DJANGO_SETTINGS_MODULE", "myproject1.settings")
-=======
+
     os.environ.setdefault("DJANGO_SETTINGS_MODULE", "whats_my_ip.settings")
->>>>>>> 47e9abd8d7de15ddd040ba0b45410a37684185af
+
     try:
         from django.core.management import execute_from_command_line
     except ImportError:
